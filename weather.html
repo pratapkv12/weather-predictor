@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Monitoring</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Weather Monitoring</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="weather-info">
+                <h2>Current Weather</h2>
+                <div id="location">
+                    <input type="text" id="city-input" placeholder="Enter City Name">
+                    <button id="search-btn">Search</button>
+                </div>
+                <div id="current-location-info">
+                    <button id="locate-btn">Use Current Location</button>
+                </div>
+                <div id="weather-details">
+                    <p>Location: <span id="city">--</span></p>
+                    <p>Temperature: <span id="temp">--</span>°C</p>
+                    <p>Condition: <span id="weather-condition">--</span></p>
+                    <p>Humidity: <span id="humidity">--</span>%</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Weather Monitoring. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
